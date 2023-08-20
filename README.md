@@ -8,7 +8,7 @@
 - Created SSH credentials in Jenkins to establish a connection to the EC2 instance.
 - Configured the Jenkinsfile to utilise the sshAgent and execute a Docker run command on the EC2 instance.
 - Ensured Docker login to DockerHub.
-- Configured the security group on AWS, adding Jenkins' IP address and opening the required port to access the web application.
+- Configured the security group on AWS, adding Jenkins IP address and opening the required port to access the web application.
 - Successfully deployed the web application on an EC2 instance by executing a Multi-Branch Pipeline.
 - Accessed the deployed web application in a browser using the specified port (e.g., 3080).
 
